@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // 4. Kalo file ini diakses langsung (bukan dari form)
     //    Kita usir aja.
     echo "Akses dilarang. Silakan isi form dulu.";
-    header("Refresh: 3; url=index.html"); // Balikin ke form setelah 3 detik
+    header("Refresh: 3; url=index.php"); // Balikin ke form setelah 3 detik
 }
 
 ?>
