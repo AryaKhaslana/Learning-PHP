@@ -25,7 +25,9 @@ foreach ($siswa as $swa) {
         $style = "style='color: red;'";
     }
 
-    echo $swa["nama"];
+    echo "<br>" . $swa["nama"];
+    echo $swa["usia"];
+    echo $swa["jenis_kelamin"];
 };
 
 
